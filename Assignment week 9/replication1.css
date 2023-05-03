@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width:100%;
+}
+.son{
+    width:60%;
+    height: 853px;
+    float:left;
+    background-color: rgb(12,59,46);
+}
+.daughter{
+    width:40%;
+    float:right;
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(255,186,0);
+    width: 320px;
+    height: 45px;
+    font-weight: bold; 
+    top: 500px;
+    left: 90px;
+    position: absolute;
+}
+p1{
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+}
+p2{
+    color: white;
+    font-size: xx-large;
+    align-content: center;
+    text-align: center;
+}
+p{
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 90px;
+}
+/*mobiles devices*/
+@media (min-width:320px) and (max-width:480px){
+    h1{
+        color:white;
+        width: 100%;
+        text-align: center;
+        font-size: small;
+       }
+      .daughter{
+        width:100%;
+      }
+      .son{
+        width:100%;
+        align-items: center;
+      }
+      .daughter img{
+        width:100%;
+        height: auto;
+      }
+      .son button{
+        width: 270px;
+        height: 40px;
+        top: 700px;
+        left: auto;
+        position: absolute;
+
+      }
+      p{
+        top: 10px;
+        left: auto;
+      }
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+  h1{
+    color:white;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+     }
+    .daughter{
+      width:100%;
+    }
+    .son{
+      width:100%;
+    }
+    .daughter img{
+      width:100%;
+      height: auto;
+    }
+    .son button{
+      left: auto;
+      top: 750px;
+    }
+    p{
+      top: 20px;
+      left: auto;
+    }
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+  h1{
+    color:white;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+     }
+    .daughter{
+      width:100%;
+    }
+    .son{
+      width:100%;
+    }
+    .daughter img{
+      width:100%;
+      height: auto;
+    } 
+    .son button{
+      top: 700px;
+      width: 500px;
+      height: 50px;
+    }
+    p{
+      top: 75px;
+      left: auto;
+    }
+}
