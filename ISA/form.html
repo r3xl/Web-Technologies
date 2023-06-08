@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herald College</title>
+    <style>
+        .main{
+            background-color: whitesmoke;
+            width: 700px;
+            height: 900px;
+            padding: 50px;
+        }
+        body{
+            background-color: grey;
+        }
+        .container{
+            margin:auto;
+            width:50%;
+        }
+        h1{
+            color:aliceblue;
+            margin-left: 80px;
+        }
+        button{
+            border-radius: 20px;
+            background-color: rgb(76,175,80);
+            width: 100px;
+            height: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Herlad College Kathmandu Survey</h1>
+
+        <div class="main">
+            <form>
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your name.."><br><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your email.."><br><br>
+                <label for="age">Age:</label><br>
+                <input type="text" id="age" name="age" placeholder="Enter your age.."><br><br>
+            </form>
+            <form>
+                <p>Select your gender:</p>
+                <input type="radio" name="gender">
+                <label>Male</label><br>
+                <input type="radio" name="gender">
+                <label>Female</label><br>
+                <input type="radio" name="gender">
+                <label>Other</label><br><br>
+            </form>
+            <form>
+                <label for="education">Education:</label>
+            <select>
+            <option>S.E.E</option>
+            <option>+2</option>
+            <option>BSC</option>
+            </select>
+            </form>
+            <p><label>Message:</label></p>
+            <textarea id="msg" name="msg" rows="4" cols="50"></textarea><br><br><br>
+            <button>Submit</button>
+            </div>
+            
+    </div>
+    
+</body>
+</html>
